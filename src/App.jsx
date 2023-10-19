@@ -26,7 +26,9 @@ function App() {
   return (
     <AuthProvider>
       <CitiesProvider>
-        <BrowserRouter>
+        <BrowserRouter
+          basename={import.meta.env.DEV ? "/" : "/vite-worldpackers-app/"}
+        >
           <Suspense fallback={<SpinnerFullPage />}>
             <Routes>
               <Route index element={<Homepage />} />
