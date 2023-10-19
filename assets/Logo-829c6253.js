@@ -1,0 +1,1 @@
+import{j as o,L as s}from"./index-8d421437.js";const l="_logo_7b2ls_1",t={logo:l};function g(){return o.jsx(s,{to:"/",children:o.jsx("img",{src:"/logo-0.png",alt:"WorldPackers logo",className:t.logo})})}export{g as L};
